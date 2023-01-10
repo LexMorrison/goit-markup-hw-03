@@ -1,0 +1,135 @@
+:root {
+  --brand-color-dark: #2e2f42;
+  --brand-color-white: #f4f4fd;
+  --brand-color-logo: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.section-description {
+  line-height: 1.5;
+  color: #434455;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--brand-color-dark);
+}
+
+/* =======HEADER========*/
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color-logo);
+}
+
+.logo-dark {
+  color: var(--brand-color-dark);
+}
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--brand-color-dark);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--brand-color-logo);
+}
+
+.contact-link {
+  font-style: normal;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--brand-color-logo);
+}
+
+/* =========HERO======== */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffff;
+}
+
+.hero-btn {
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  color: #ffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.buttons {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: #ffff;
+  background-color: #4d5ae5;
+}
+
+.footer-head {
+  background-color: var(--brand-color-dark);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: #e7e9fc;
+}
+
+.logo-white {
+  color: var(--brand-color-white);
+}
