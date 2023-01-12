@@ -30,6 +30,35 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -51,6 +80,11 @@ body {
 }
 
 /* =======HEADER========*/
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logotype {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -59,6 +93,31 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-logo);
+  margin-right: 76px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+.contact-info {
+  display: flex;
+  gap: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .logo-dark {
@@ -86,33 +145,12 @@ body {
   color: var(--brand-color-logo);
 }
 
-/* =========HERO======== */
-.hero {
-  background-color: #2e2f42;
-}
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  color: #ffff;
-}
-
-.hero-btn {
-  font-weight: 500;
-  line-height: 1.19;
-  letter-spacing: 0.04em;
-  color: #ffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
 .buttons {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  cursor: pointer;
 }
 
 .buttons:hover,
@@ -121,6 +159,163 @@ body {
   background-color: #4d5ae5;
 }
 
+/* =========HERO======== */
+.hero {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffff;
+  margin-bottom: 48px;
+  max-width: 494px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-btn {
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  color: #ffff;
+  background-color: #4d5ae5;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+}
+
+/* =========BENEFITS======== */
+.benefits-sec {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-title {
+  margin-bottom: 8px;
+}
+
+.benefits-text {
+  max-width: 264px;
+}
+
+/* =========OUR WORK======== */
+.work-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.work-list {
+  display: flex;
+  gap: 24px;
+}
+
+.work-title {
+  margin-bottom: 72px;
+}
+
+.work-item {
+  width: calc((100%-48px) / 3);
+}
+
+/* =========TEAM======== */
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #f4f4fd;
+}
+
+.team-section {
+  margin-bottom: 72px;
+}
+.employees {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ffff;
+  text-align: center;
+}
+.team-headline {
+  margin-bottom: 8px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100%-72px) / 4);
+}
+/* =========GALLERY======== */
+.menu-gallery {
+  padding-top: 96px;
+  padding-bottom: 152px;
+}
+
+.buttons-gallery {
+  margin-bottom: 72px;
+  border-radius: 4px;
+  height: 48px;
+}
+.btn-all {
+  min-width: 69px;
+}
+
+.btn-web-site {
+  min-width: 116px;
+}
+
+.btn-app {
+  min-width: 78px;
+}
+
+.btn-design {
+  min-width: 126px;
+}
+
+.btn-list-gallery {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.gallery-sup-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.gallery-title {
+  margin-bottom: 8px;
+}
+
+.gallery-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.img-gallery {
+  width: calc((100%-48px) / 3);
+}
+/* =========FOOTER======== */
+.footer-head {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logotype link {
+  margin-bottom: 16px;
+}
 .footer-head {
   background-color: var(--brand-color-dark);
 }
@@ -128,6 +323,7 @@ body {
 .footer-text {
   line-height: 1.5;
   color: #e7e9fc;
+  max-width: 264px;
 }
 
 .logo-white {

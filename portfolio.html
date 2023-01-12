@@ -11,179 +11,225 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="logotype link" href="/">
-          Web<span class="logo-dark">Studio</span></a
-        >
-        <ul class="menu list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact">
-        <ul class="list">
-          <li class="contact-email">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li class="contact-email">
-            <a class="contact-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="page-nav">
+          <a class="logotype link" href="/">
+            Web<span class="logo-dark">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact">
+          <ul class="list contact-info">
+            <li class="contact-email">
+              <a class="contact-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="contact-email">
+              <a class="contact-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Gallery -->
       <section class="menu-gallery">
-        <h1 class="hide">Gallery section-subtitle</h1>
-        <ul class="list">
-          <li class="list-btn">
-            <button class="buttons" type="button">All</button>
-          </li>
-          <li class="list-btn">
-            <button class="buttons" type="button">Web Site</button>
-          </li>
-          <li class="list-btn">
-            <button class="buttons" type="button">App</button>
-          </li>
-          <li class="list-btn">
-            <button class="buttons" type="button">Design</button>
-          </li>
-          <li class="list-btn">
-            <button class="buttons" type="button">Marketing</button>
-          </li>
-        </ul>
-        <ul class="list">
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/bank_app.jpg"
-              alt="bank app"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">
-              Banking App Interface Concept
-            </h2>
-            <p class="gallery-text section-description">App</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/bank_app.jpg"
-              alt="bank app"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Cashless Payment</h2>
-            <p class="gallery-text section-description">Marketing</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/laptop.jpg"
-              alt="laptop and phone"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Meditaion App</h2>
-            <p class="gallery-text section-description">App</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/wheel.jpg"
-              alt="driver"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Taxi Service</h2>
-            <p class="gallery-text section-description">Marketing</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/smartphone.jpg"
-              alt="smartphone"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Screen Illustrations</h2>
-            <p class="gallery-text section-description">Design</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/lady.jpg"
-              alt="lady"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Online Courses</h2>
-            <p class="gallery-text section-description">Marketing</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/feel_easy.jpg"
-              alt="smart control"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">
-              Instagram Stories Concept
-            </h2>
-            <p class="gallery-text section-description">Design</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/vegetables.jpg"
-              alt="organic vegetables"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title">Organic Food</h2>
-            <p class="gallery-text section-description">Web Site</p>
-          </li>
-          <li>
-            <img
-              class="img-gallery"
-              src="./images/gallery/coffe.jpg"
-              alt="a cup of coffe"
-              width="360"
-              height="300"
-            />
-            <h2 class="gallery-title section-subtitle">Fresh Coffee</h2>
-            <p class="gallery-text section-description">Web Site</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="hide">Gallery section-subtitle</h1>
+          <ul class="list btn-list-gallery">
+            <li class="list-btn">
+              <button class="buttons buttons-gallery btn-all" type="button">
+                All
+              </button>
+            </li>
+            <li class="list-btn">
+              <button
+                class="buttons buttons-gallery btn-web-site"
+                type="button"
+              >
+                Web Site
+              </button>
+            </li>
+            <li class="list-btn">
+              <button class="buttons buttons-gallery btn-app" type="button">
+                App
+              </button>
+            </li>
+            <li class="list-btn">
+              <button class="buttons buttons-gallery btn-design" type="button">
+                Design
+              </button>
+            </li>
+            <li class="list-btn">
+              <button class="buttons buttons-gallery" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <ul class="list gallery-container">
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/bank_app.jpg"
+                alt="bank app"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">
+                  Banking App Interface Concept
+                </h2>
+                <p class="gallery-text section-description">App</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/bank_app.jpg"
+                alt="bank app"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">Cashless Payment</h2>
+                <p class="gallery-text section-description">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/laptop.jpg"
+                alt="laptop and phone"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">Meditaion App</h2>
+                <p class="gallery-text section-description">App</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/wheel.jpg"
+                alt="driver"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">Taxi Service</h2>
+                <p class="gallery-text section-description">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/smartphone.jpg"
+                alt="smartphone"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">
+                  Screen Illustrations
+                </h2>
+                <p class="gallery-text section-description">Design</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/lady.jpg"
+                alt="lady"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">Online Courses</h2>
+                <p class="gallery-text section-description">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/feel_easy.jpg"
+                alt="smart control"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">
+                  Instagram Stories Concept
+                </h2>
+                <p class="gallery-text section-description">Design</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/vegetables.jpg"
+                alt="organic vegetables"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title">Organic Food</h2>
+                <p class="gallery-text section-description">Web Site</p>
+              </div>
+            </li>
+            <li>
+              <img
+                class="img-gallery"
+                src="./images/gallery/coffe.jpg"
+                alt="a cup of coffe"
+                width="360"
+                height="300"
+              />
+              <div class="gallery-sup-text">
+                <h2 class="gallery-title section-subtitle">Fresh Coffee</h2>
+                <p class="gallery-text section-description">Web Site</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer-head">
-      <a class="logotype link" href="/"
-        >Web<span class="logo-white">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="logotype link" href="/"
+          >Web<span class="logo-white">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
