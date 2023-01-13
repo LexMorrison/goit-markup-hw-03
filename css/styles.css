@@ -158,6 +158,7 @@ img {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+  padding: 12px 24px;
 }
 
 .buttons:hover,
@@ -196,6 +197,7 @@ img {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
+  border: none;
 }
 
 /* =========BENEFITS======== */
@@ -209,6 +211,10 @@ img {
 
 .benefits-text {
   max-width: 264px;
+}
+
+.benefits {
+  padding-bottom: 0;
 }
 
 /* =========OUR WORK======== */
@@ -233,6 +239,7 @@ img {
   padding-bottom: 32px;
   background-color: #ffff;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-headline {
   margin-bottom: 8px;
@@ -243,43 +250,31 @@ img {
   gap: 24px;
 }
 
-/* =========GALLERY======== */
-.menu-gallery {
+/* =========PORTFOLIO======== */
+.portfolio {
   padding-top: 96px;
   padding-bottom: 152px;
 }
 
 .buttons-gallery {
-  margin-bottom: 72px;
   border-radius: 4px;
   height: 48px;
-}
-.btn-all {
-  min-width: 69px;
-}
-
-.btn-web-site {
-  min-width: 116px;
-}
-
-.btn-app {
-  min-width: 78px;
-}
-
-.btn-design {
-  min-width: 126px;
+  border: none;
 }
 
 .btn-list-gallery {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
+
 .gallery-sup-text {
   padding-top: 32px;
   padding-bottom: 32px;
-  text-align: center;
-  border-bottom: 1px solid #e7e9fc;
+  padding-left: 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
 }
 
 .gallery-title {
@@ -288,18 +283,22 @@ img {
 
 .gallery-container {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 /* =========FOOTER======== */
-.footer-head {
+.footer {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.footer-head {
   background-color: var(--brand-color-dark);
+}
+.footer .logotype {
+  margin-right: 0;
+}
+.footer-logotype {
+  padding-right: 0;
 }
 
 .footer-text {
